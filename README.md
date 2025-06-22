@@ -4,6 +4,17 @@
 
 Build a weather data system where users can submit weather requests and retrieve stored results by ID.
 
+## MESSAGE FROM SAMUEL
+Remember to download dotenv, I used it since Python doesn't autoload the .env file
+```bash
+pip install python-dotenv
+```
+And I used canvas-confetti for the amazing button effect
+```bash
+npm install canvas-confetti
+```
+Somehow, I spent like 8 hours on this
+
 ## Project Structure
 
 ```
