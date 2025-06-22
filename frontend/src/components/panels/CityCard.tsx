@@ -35,7 +35,7 @@ import { cn } from "@/lib/utils";
     return (
         <Card className="fixed top-16 left-4 z-50 w-[320px] min-h-[70vh] max-h-[80vh] overflow-y-auto shadow-lg">
         <CardHeader>
-          <CardTitle className="text-lg">City List</CardTitle>
+          <CardTitle className="text-lg">City List (Clickable)</CardTitle>
         </CardHeader>
         <CardContent className="grid gap-2 px-2 pb-4">
           {loading && <p className="text-sm text-muted-foreground">Loading…</p>}
