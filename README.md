@@ -14,8 +14,9 @@ And I used canvas-confetti for the amazing button effect, Frontend
 npm install canvas-confetti
 ```
 The user needs to create a .env file at the root directory
+```bash
 WEATHERSTACK_API_KEY="api_key"
-
+```
 Somehow, I spent like 8 hours on this
 
 ## Project Structure
