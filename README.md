@@ -14,6 +14,7 @@ And I used canvas-confetti for the amazing button effect, Frontend
 npm install canvas-confetti
 ```
 The user needs to create a .env file at the root directory
+WEATHERSTACK_API_KEY="api_key"
 
 Somehow, I spent like 8 hours on this
 
@@ -32,9 +33,9 @@ Somehow, I spent like 8 hours on this
 │   └── package.json
 |
 └── backend/           # FastAPI backend application
-    ├── main.py        # Task 1 and other additions
-    └── requirements.txt
-└── .env ## IMPORTANT, don't forget!
+|   ├── main.py        # Task 1 and other additions
+|   └── requirements.txt
+└── .env ## IMPORTANT, don't forget to add this!
 ```
 
 ## Prerequisites
