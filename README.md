@@ -5,14 +5,16 @@
 Build a weather data system where users can submit weather requests and retrieve stored results by ID.
 
 ## MESSAGE FROM SAMUEL
-Remember to download dotenv, I used it since Python doesn't autoload the .env file
+Remember to download dotenv, I used it since Python doesn't autoload the .env file, Frontend
 ```bash
 pip install python-dotenv
 ```
-And I used canvas-confetti for the amazing button effect
+And I used canvas-confetti for the amazing button effect, Frontend
 ```bash
 npm install canvas-confetti
 ```
+The user needs to create a .env file at the root directory
+
 Somehow, I spent like 8 hours on this
 
 ## Project Structure
@@ -21,11 +23,18 @@ Somehow, I spent like 8 hours on this
 ├── frontend/          # Next.js frontend application
 │   ├── src/
 │   │   ├── app/       # Next.js app router pages
-│   │   └── components/ # React components
+│   │   └── components/ # React components pages
+│   │   │   ├── panels/ ## New panels for easier access to weather
+│   │   │   └── ui/
+│   │   ├── lookup-form.tsx ## Task 2
+│   │   ├── theme-provider.tsx
+│   │   └── weather-form.tsx
 │   └── package.json
+|
 └── backend/           # FastAPI backend application
-    ├── main.py        # Main API application
+    ├── main.py        # Task 1 and other additions
     └── requirements.txt
+└── .env ## IMPORTANT, don't forget!
 ```
 
 ## Prerequisites
