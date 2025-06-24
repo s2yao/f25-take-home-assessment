@@ -5,7 +5,7 @@
 Build a weather data system where users can submit weather requests and retrieve stored results by ID.
 
 ## MESSAGE FROM SAMUEL
-Remember to download dotenv, I used it since Python doesn't autoload the .env file, Frontend
+Remember to download dotenv, I used it since Python doesn't autoload the .env file, Backend
 ```bash
 pip install python-dotenv
 ```
